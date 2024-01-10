@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -46,8 +46,20 @@ a {
 
 .hero-main {
     font-size: 36px;
-    font-weight: 800px;
+    font-weight: 800;
     color: #F9FAF8;
-    font-family: Arial;
 }
+
+.button {
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
 
