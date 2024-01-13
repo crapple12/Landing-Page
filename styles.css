@@ -73,7 +73,6 @@ a {
 
 .image {
     display: flex;
-    white-space: nowrap;
     justify-content: center;
     align-items: center;
     background-color: gray;
@@ -85,11 +84,8 @@ a {
 }
 
 .information{
-    display: flex;
-    justify-content: space-between;
     padding: 60px;
     padding-top: 20px;
-    text-align: center;
 }
 
 .info-header {
@@ -116,6 +112,13 @@ img {
     padding: 10px;
     margin: 10px;
 }
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 
 
