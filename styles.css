@@ -75,6 +75,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
     background-color: gray;
     color: #F9FAF8;
     opacity: 0.7;
@@ -114,10 +115,12 @@ img {
 }
 
 .boxes {
+    background-color: black;
     display: flex;
     justify-content: space-between;
 
 }
+
 
 
 
