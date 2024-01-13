@@ -82,6 +82,7 @@ a {
     padding: 10px;
     padding-left: 120px;
     padding-right: 120px;
+    overflow: hidden;
 }
 
 .information{
@@ -115,7 +116,6 @@ img {
 }
 
 .boxes {
-    background-color: black;
     display: flex;
     justify-content: space-between;
 
