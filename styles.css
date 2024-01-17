@@ -140,35 +140,47 @@ img {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
     font-family: 'Roboto', sans-serif;
 }
 
 .cta-box {
     display: flex;
-    flex-flow: row;
-    align-items: center;
+    justify-content: space-between;
+    align-items: center;;
     background-color: #3b82f6; 
     color: #E5E7EB;   
     padding: 36px;
     font-size: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     border-radius: 10px; 
 }
 
+.cta {
+    display: block;
+    flex-wrap: wrap;
+
+}
 
 .button-2 {
     background-color: #3b82f6;
+    border-style: solid;
     border-radius: 10px;
     color: white;
     padding: 10px 32px;
     text-align: center;
-    display: inline-block;
     font-size: 16px;
     font-weight: 700;
     border-color: white; 
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 36px;
 }
